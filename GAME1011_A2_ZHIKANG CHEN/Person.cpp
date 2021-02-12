@@ -120,12 +120,12 @@ string Survey::Process()
 	
 	s += "Number of non gaming student: " + to_string(nonGamer);
 	s += "\nAverage age of non gaming student: " + to_string(ngAverage);
-	s += "\nMost perferred streaming service: " + SPLATFOROM[i2];
+	s += "\nMost preferred streaming service: " + SPLATFOROM[i2];
 	s += "\nAverage hours spent consuming non-gaming entertainment: " + to_string(ngAverageHour);
 	
 	s += "\n\nNumber of gaming student: " + to_string(gamer);
 	s += "\nAverage age of gaming student: " + to_string(gAverage);
-	s += "\nMost perferred gaming device: " + GPLATFOROM[i1];
+	s += "\nMost preferred gaming device: " + GPLATFOROM[i1];
 	s += "\nAverage hours spent consuming gaming entertainment: " + to_string(gAverageHour);
 	return s;
 }

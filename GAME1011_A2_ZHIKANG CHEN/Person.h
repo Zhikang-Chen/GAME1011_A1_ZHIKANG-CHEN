@@ -15,6 +15,7 @@ struct Info
 	Type type;
 };
 
+template <typename T>
 
 class Person
 {
@@ -24,11 +25,11 @@ protected:
 
 public:
 	Person(string n, int a) : m_name(n), m_age(a) {}
-	Info virtual GetInfo() = 0;
+	virtual T GetInfo() = 0;
 };
 
 
-class Student : public Person
+class Student : public Person<Info>
 {
 protected:
 	string m_college,
@@ -68,7 +69,7 @@ public:
 class Survey
 {
 private:
-	vector<Person*> m_pParticipants;
+	vector<Person<Info>*> m_pParticipants;
 	
 	void Generate(int n);
 

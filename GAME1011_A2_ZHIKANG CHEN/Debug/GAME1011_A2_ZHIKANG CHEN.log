@@ -1,41 +1,19 @@
-﻿Build started 2021-02-11 9:41:14 PM.
-Logging verbosity is set to: Normal.     1>Project "C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2021-02-12 12:42:10 PM.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\zhika\Documents\GitHub\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\GAME1011.E3A213EE.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\GAME1011.E3A213EE.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Person.cpp
-         Person.cpp
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.h(52,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.h(65,55): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(11,86): warning C4566: character represented by universal-character-name '\u6218' cannot be represented in the current code page (1252)
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(11,86): warning C4566: character represented by universal-character-name '\u65A7' cannot be represented in the current code page (1252)
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(16,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(66,20): warning C4018: '<': signed/unsigned mismatch
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(75,21): warning C4018: '<': signed/unsigned mismatch
-     1>C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(95,22): warning C4018: '<': signed/unsigned mismatch
+         All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\Debug\GAME1011_A2_ZHIKANG CHEN.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\Debug\GAME1011_A2_ZHIKANG CHEN.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\Debug\GAME1011_A2_ZHIKANG CHEN.lib" /MACHINE:X86 Debug\main.obj
-         Debug\Person.obj
-         GAME1011_A2_ZHIKANG CHEN.vcxproj -> C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\Debug\GAME1011_A2_ZHIKANG CHEN.exe
+         All outputs are up-to-date.
+         GAME1011_A2_ZHIKANG CHEN.vcxproj -> C:\Users\zhika\Documents\GitHub\GAME1011_A2_ZHIKANG CHEN\Debug\GAME1011_A2_ZHIKANG CHEN.exe
        FinalizeBuildStatus:
          Deleting file "Debug\GAME1011.E3A213EE.tlog\unsuccessfulbuild".
          Touching "Debug\GAME1011.E3A213EE.tlog\GAME1011_A2_ZHIKANG CHEN.lastbuildstate".
-     1>Done Building Project "C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\zhika\Documents\GitHub\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN.vcxproj" (Build target(s)).
 
 Build succeeded.
-
-       "C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN.vcxproj" (Build target) (1) ->
-       (ClCompile target) -> 
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.h(52,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.h(65,55): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(11,86): warning C4566: character represented by universal-character-name '\u6218' cannot be represented in the current code page (1252)
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(11,86): warning C4566: character represented by universal-character-name '\u65A7' cannot be represented in the current code page (1252)
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(16,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(66,20): warning C4018: '<': signed/unsigned mismatch
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(75,21): warning C4018: '<': signed/unsigned mismatch
-         C:\Users\zhika\Desktop\GAME1011_A2_ZHIKANG CHEN\GAME1011_A2_ZHIKANG CHEN\Person.cpp(95,22): warning C4018: '<': signed/unsigned mismatch
-
-    8 Warning(s)
+    0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.96
+Time Elapsed 00:00:00.04
